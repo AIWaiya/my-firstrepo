@@ -3,12 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Github Demo</title>
   </head>
-  <body>
-    <p>git push</p>
-    <p>I have modify this code</p>
-    <p>I am te dev branch</p>
-    <p>wesdfsdfsdfdsd</p>
+  <body class="px-40 mt-5">
+    <header>
+      <nav
+        class="flex justify-between items-center py-4 px-4 bg-blue-500 text-white rounded-xl"
+      >
+        <a href="/"><p>Git Demo</p></a>
+        <div class="flex gap-3">
+          <a
+            href="/sign-in"
+            class="px-4 py-2 bg-blue-700 hover:bg-blue-950 rounded-lg"
+          >
+            Sign in
+          </a>
+          <a
+            href="/sign-up"
+            class="px-4 py-2 bg-blue-700 hover:bg-blue-950 rounded-lg"
+          >
+            Sign up
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="flex gap-3 mt-5">
+      <div class="bg-blue-200 rounded-lg flex-1"></div>
+      <div class="bg-blue-200 rounded-lg flex-[0.4]">Category</div>
+    </section>
   </body>
 </html>
